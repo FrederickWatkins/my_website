@@ -9,7 +9,7 @@ export type Post = {
 	slug: string;
 };
 
-type ApiPost = {
+export type ApiPost = {
 	id: number;
     attributes: ApiAttributes;
 };
@@ -35,7 +35,7 @@ export const load = (async ({ fetch }) => {
 			content: attributes.content,
 			published: new Date(attributes.publishedAt),
 			updated: new Date(attributes.updatedAt),
-			slug: post.attributes
+			slug: attributes.slug
 		};
 	});
 	return { posts };

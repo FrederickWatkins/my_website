@@ -10,7 +10,7 @@
 <h1 class="title">Blog Posts</h1>
 <div class="posts">
 	{#each data.posts as post (post.slug)}
-		<a href="/contact" class="post">
+		<a href={`/blog/${post.slug}`} class="post">
 			<div>
 				<h2>{post.title}</h2>
 			</div>

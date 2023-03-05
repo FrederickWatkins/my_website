@@ -4,6 +4,7 @@
 
 <Navbar />
 
+
 <h1>Welcome!</h1>
 <p>
 	This is my website. It's currently a WIP but in the future I hope that it will hold my projects,
@@ -20,6 +21,6 @@
 <p>
 	This website is a learning experience, an advertisement, a blog, and a CV all in one! It's built
 	on Sveltekit, and the code is available on github
-	<a href="https://github.com/FrederickWatkins/my_website">here</a>. Any feedback or issues are
+	<a href="https://github.com/FrederickWatkins/my_website" target="_blank" rel="noopener noreferrer">here</a>. Any feedback or issues are
 	appreciated.
 </p>
