@@ -1,9 +1,9 @@
 <div class="navbar">
-	<a href="/"><div class="navbutton">Frederick Watkins</div></a>
+	<a href="/" class="navbutton">Frederick Watkins</a>
 	<div class="navbuttons">
-		<a href="/blog"><div class="navbutton">blog</div></a>
-		<a href="/projects"><div class="navbutton">projects</div></a>
-		<a href="/contact"><div class="navbutton">contact</div></a>
+		<a href="/blog" class="navbutton">blog</a>
+		<a href="/projects" class="navbutton">projects</a>
+		<a href="/contact" class="navbutton">contact</a>
 	</div>
 </div>
 
